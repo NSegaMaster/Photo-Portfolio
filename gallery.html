@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Above 3 meta tags *must* come first in the head; other head content goes *after* these tags -->
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>VDLee Photography - Gallery</title>
+
+ 
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- ADD Custom styles for this template that you might get from the Bootstrap examples -->
+
+    <link href="SOMEFILE.css" rel="stylesheet">
+
+    <!-- ADD YOUR PERSONAL Custom CSS -->
+
+    <link href="css/gallery.css" rel="stylesheet">
+      
+      
+      
+       <script>
+      // Lightbox init
+$('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
+// Filter init
+$('.filter-lightbox').mdbFilter();
+      
+      </script>
+      
+      
+<style>
+      .gallery_product
+{
+    margin-bottom: 30px;
+}
+      body {
+    background-image: url("img/background.png");
+          background-repeat: repeat;
+          background-color: black;
+          color: white
+}
+      </style>
+ </head>
+
+ 
+
+  <body>
+
+    <div class="container">
+
+ 
+
+     <div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+        <div class="navbar-header"><a href="http://csc04.simplystreet.com/project/index.html" class="navbar-brand">VDLee Photography</a></div>
+            <div>
+            <ul class="nav navbar-nav">
+                <li><a href="http://csc04.simplystreet.com/project/index.html">Home</a></li>
+                <li class="active"><a href="http://csc04.simplystreet.com/project/gallery.html">Gallery</a></li>
+                <li><a href="http://csc04.simplystreet.com/project/events.html">Events</a></li>
+                <li><a href="http://csc04.simplystreet.com/project/about-me.html">About Me</a></li>
+                <li><a href="http://csc04.simplystreet.com/project/contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+    </div>
+
+ 
+
+
+
+
+    </div> <!-- /container -->
+
+ 
+
+ <div class="container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Gallery</h1>
+        </div>
+
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="nature">Nature</button>
+            <button class="btn btn-default filter-button" data-filter="photoshoots">Photoshoots</button>
+            <button class="btn btn-default filter-button" data-filter="misc">Misc.</button>
+        </div>
+        <br/>
+
+
+<div class="row">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+                <img onclick="myFunction(this)" id="myImg" src="img/nature1.webp" class="img-responsive" alt="Nature 1">
+<div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter photoshoots">
+                <img onclick="myFunction(this)" id="myImg" src="img/photoshoot3.webp" class="img-responsive" alt="Photoshoot 3">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+                
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+                <img onclick="myFunction(this)" id="myImg" src="img/nature2.webp" class="img-responsive" alt="Nature 2">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+    </div>
+            
+            <div class="row">
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc1.webp" class="img-responsive" alt="Misc. 1">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc2.webp" class="img-responsive" alt="Misc. 2">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc3.webp" class="img-responsive" alt="Misc. 3">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+</div>
+            
+        <div class="row">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc4.webp" class="img-responsive" alt="Misc. 4">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc5.webp" class="img-responsive" alt="Misc. 5">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc6.webp" class="img-responsive" alt="Misc. 6">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+</div>
+            
+        <div class="row">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+                <img onclick="myFunction(this)" id="myImg" src="img/nature3.webp" class="img-responsive" alt="Nature 3">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+                <img onclick="myFunction(this)" id="myImg" src="img/misc7.webp" class="img-responsive" alt="Misc. 7">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter photoshoots">
+                <img onclick="myFunction(this)" id="myImg" src="img/photoshoot4.webp" class="img-responsive" alt="Photoshoot 4">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+            </div>
+            
+               <div class="row">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+                <img onclick="myFunction(this)" id="myImg" src="img/vleesample1.png" class="img-responsive" alt="Nature 4">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+                <img onclick="myFunction(this)" id="myImg" src="img/vleesample2.png" class="img-responsive" alt="Nature 5">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter photoshoots">
+                <img onclick="myFunction(this)" id="myImg" src="img/photoshoot2.webp" class="img-responsive" alt="Photoshoot 2">
+                <div id="myModal" class="modal">
+
+  <span class="close">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+ 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/jquery.min.js"></script>
+
+ 
+
+<script src="js/bootstrap.min.js"></script>
+      
+   <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+function myFunction(imgs){
+    img = imgs.src;
+  modal.style.display = "block";
+  modalImg.src = imgs.src;
+  captionText.innerHTML = imgs.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+<script>
+      $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+      
+      </script>
+      
+   
+
+</body>
+
+</html>

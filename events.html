@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Above 3 meta tags *must* come first in the head; other head content goes *after* these tags -->
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>VDLee Photography - Events</title>
+
+ 
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- ADD Custom styles for this template that you might get from the Bootstrap examples -->
+
+    <link href="SOMEFILE.css" rel="stylesheet">
+
+    <!-- ADD YOUR PERSONAL Custom CSS -->
+
+    <link href="css/events.css" rel="stylesheet">
+      
+      <style>
+            body {
+    background-image: url("img/background.png");
+          background-repeat: repeat;
+          background-color: black;
+          color: #FFC000;
+}
+      </style>
+
+ </head>
+
+ 
+
+  <body>
+
+    <div class="container" id="coolstuff">
+
+ 
+
+     <div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+        <div class="navbar-header"><a href="http://csc04.simplystreet.com/project/index.html" class="navbar-brand">VDLee Photography</a></div>
+            <div>
+            <ul class="nav navbar-nav">
+                <li><a href="http://csc04.simplystreet.com/project/index.html">Home</a></li>
+                <li><a href="http://csc04.simplystreet.com/project/gallery.html">Gallery</a></li>
+                <li class="active"><a href="http://csc04.simplystreet.com/project/events.html">Events</a></li>
+                <li><a href="http://csc04.simplystreet.com/project/about-me.html">About Me</a></li>
+                <li><a href="http://csc04.simplystreet.com/project/contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+    </div>
+
+ 
+
+  <h1 class="title">Events</h1>
+
+ 
+
+    </div> 
+      <div class="container" id="shrink">
+    <div class="tab">
+  <button class="tablinks" onclick="openNews(event, 'Lessons')">One-on-One Camera Lessons</button>
+  <button class="tablinks" onclick="openNews(event, 'Fest')">Addis Foto Fest</button>
+  <button class="tablinks" onclick="openNews(event, 'Expo')">Photo Booth Expo</button>
+</div>
+
+<div id="Lessons" class="tabcontent" style="display: block;">
+  <h3>One-on-One Camera Lessons</h3>
+  <p>When you RSVP for this class, you’ll be assigned a 30 minute block between 9am and 1pm with one of our experts in San Diego (instructor will contact you for exact location after registering) to help you learn the functions of your camera. We are experts in Canon, Nikon, Sony, Fuji and more! Learn how to use that fancy camera <a href="https://localphotoclasses.com/events/1-on-1-camera-lessons-30-min-blocks-2/" target="_blank">here</a>!</p>
+</div>
+
+<div id="Fest" class="tabcontent" style="display: none;">
+  <h3>Addis Foto Fest</h3>
+  <p>Established in 2010, the Addis Foto Fest biannual is a photography festival that is directed by award winning photographer Aida Muluneh.  Produced by Desta for Africa (DFA), the weeklong international festival is held in Addis Ababa, Ethiopia and features exhibitions, portfolio review, conferences, projections and film screenings. Click <a href="http://addisfotofest.com/" target="_blank">here</a> to learn more!</p>
+</div>
+
+<div id="Expo" class="tabcontent" style="display: none;">
+  <h3>Photo Booth Expo</h3>
+  <p>Photo Booth Expo is a trade show at the South Point Hotel and Casino in Las Vegas, Nevada. This is the largest trade show event for those who use, manufacture, and supply photo booths. Click <a href="https://photoboothexpo.com/" target="_blank">here</a> to learn more!</p>
+</div>
+ </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/jquery.min.js"></script>
+
+ 
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+function openNews(evt, newsName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(newsName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+ 
+
+</body>
+
+</html>
